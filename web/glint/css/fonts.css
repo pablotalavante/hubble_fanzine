@@ -15,6 +15,15 @@
 
  }
 
+ @font-face {
+     font-family: '04b';
+     src: url('../fonts/04b/04b_30__-webfont.woff2') format('woff2'),
+          url('../fonts/04b/04b_30__-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+
 
  /*
   * lora

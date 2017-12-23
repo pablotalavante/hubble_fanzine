@@ -61,14 +61,28 @@
   color: #FFFFFF !important;
 }
 
+.zero-four {
+  font-family: "04b" !important;
+  color: #FFFFFF !important;
+  font-size: 24px;
+}
+
 .background-style {
-  background-color: #A0AABF !important;
+  /* background-color: #A0A0A0 !important; */
   background-image: url("../images/backgr.png");
   background-repeat: no-repeat;
   background-size: 80%;
   background-attachment:fixed;
 }
 
+
+.text-shadow {
+  text-shadow: 2px 2px #ff0000;
+}
+
+.text-shadow-black {
+  text-shadow: 2px 2px #000000;
+}
 
 /* ===================================================================
  * # base style overrides
@@ -1757,7 +1771,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-home {
     width: 100%;
     height: 100%;
-    min-height: 786px;
+    /* min-height: 786px; */
     background-color: transparent;
     position: relative;
     display: table;
@@ -1795,11 +1809,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## home content
  * ------------------------------------------------------------------- */
 .home-content {
-    display: table-cell;
+    /* display: table-cell; */
     width: 100%;
     height: 100%;
     vertical-align: middle;
-    padding-bottom: 15.6rem;
+    padding-bottom: 0;
     position: relative;
     overflow: hidden;
 }
@@ -1835,8 +1849,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__buttons .btn {
-    width: 300px;
-    border-color: #FFFFFF;
+    border-color: blue;
+    border-style: double;
+    border-width: thick;
     color: #FFFFFF;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
@@ -2212,7 +2227,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top: 16.2rem;
+    /*padding-top: 16.2rem; */
     padding-bottom: 9rem;
     background-color: #5c6a8a;
     color: #010507;
